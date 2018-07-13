@@ -1,8 +1,9 @@
 # ShellEcoMarathon
 
-###This website has 5 pages
+### This website has 5 pages
 
-###Requirements:
+### Requirements:
+
 python 3.6
 ```shell
 sudo apt-get install python3.6
