@@ -23,5 +23,7 @@ python3 manage.py runserver
 And then go to 127.0.0.1:8000 in your web browser
 
 To check submitted details:
-Go to 127.0.0.1:8000/admin and enter the username and password
+
+Go to 127.0.0.1:8000/admin and enter the username and password 
+
 Go to Details
