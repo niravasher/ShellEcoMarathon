@@ -1,0 +1,917 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.support
+{
+    width: 25vw;
+    height: 21vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0,0,0,0.9);
+    z-index: 105;
+    clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+    transition: opacity 0.5s linear;
+}
+
+.loaderScreen
+{
+	background-color: rgba(0,100,120,1);
+	width: 100vw;
+	height: 100vh;
+}
+
+.loaderScreen > .loader
+{
+	width: 100px;
+	height: 100px;
+	border: 4px solid white;
+	border-radius: 50%;
+	background-color: transparent;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.loaderScreen > .loader > .dot
+{
+	position: relative;
+	top: 1vh;
+	left: 50%;
+	width: 5px;
+	height: 5px;
+	background: white;
+	border-radius: 50%;
+	transform-origin: 0 45px;
+	transform: rotate(0deg);
+	animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.facebooktwo
+{
+    position: absolute;
+    top: 0;
+    left: 81vw;
+    z-index: 200;
+    width: 2vw;
+    height: 4vh;
+    overflow: hidden;
+    font-size: 20px;
+    background: rgb(0,200,0);
+    color: white;
+}
+
+.facebooktwo > i
+{
+    transform: translate(8px, 3px);
+}
+
+.instagramtwo
+{
+    position: absolute;
+    top: 0;
+    left: 85vw;
+    z-index: 200;
+    width: 2vw;
+    height: 4vh;
+    overflow: hidden;
+    font-size: 20px;
+    background: rgb(0,200,0);
+    color: white;
+}
+
+.instagramtwo > i
+{
+    transform: translate(5px, 2px);
+}
+
+.twittertwo
+{
+    position: absolute;
+    top: 0;
+    left: 89vw;
+    z-index: 200;
+    width: 2vw;
+    height: 4vh;
+    overflow: hidden;
+    font-size: 20px;
+    background: rgb(0,200,0);
+    color: white;
+}
+
+.twittertwo > i
+{
+    transform: translate(5px, 2.5px);
+}
+
+.twittertwo:hover
+{
+    color: black;
+}
+
+.head
+{
+	width: 100vw;
+    height: 11vh;
+    background: rgba(65,65,65,0.8);
+    z-index: 105;
+    position: absolute;
+    top: 4vh;
+    left: 0;
+    overflow-y: hidden;
+}
+
+.head > span
+{
+	opacity: 0;
+}
+
+#mySidenav
+{
+	opacity: 0;
+}
+
+.head > img
+{
+	display: inline-block;
+	width: auto;
+	position: relative;
+	top: 2vh;
+	color: black;
+	width: 21vw;
+}
+
+.head > a
+{
+	position: relative;
+    left: 52vw;
+    top: -1vh;
+    margin-right: 1.5%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 16px;
+}
+
+.head > a:nth-child(3)
+{
+    color: lightgreen;
+}
+
+.head > a:hover
+{
+    color: lightgreen;
+}
+
+.head > .line
+{
+    width: 6vw;
+    background: rgba(0,255,0,1);
+    height: 0.3vh;
+    position: relative;
+    top: 0vh;
+    left: 78.8vw;
+}
+
+.head > span
+{
+    opacity: 0;
+}
+
+.stuck
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.titans
+{
+	position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background: #eee;
+}
+
+.titans > img
+{
+    width: 75vw;
+    position: absolute;
+    top: 37.5vh;
+    left: -15vw;
+    z-index: 10;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 1s linear;
+}
+
+.titans > .blackBack
+{
+    position: absolute;
+    top: 45vh;
+    left: 4vw;
+    width: 37vw;
+    height: 10vh;
+    z-index: 9;
+    background: black;
+    transition: all 1s linear;
+}
+
+.titans > .next
+{
+    position: absolute;
+    top: 18vh;
+    left: 85vw;
+    transform: scale(0.5);
+    z-index: 11;
+}
+
+.titans > .prev
+{
+    position: absolute;
+    top: 18vh;
+    left: 81vw;
+    transform: scale(0.5);
+    z-index: 11;
+}
+
+.titans > a:hover
+{
+    cursor: pointer;
+}
+
+.titans > .mySlides
+{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 8;
+}
+
+.titans > .mySlides > h2
+{
+    position: relative;
+    top: 20vh;
+    left: 50vw;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    animation: moveRight 0.2s linear forwards;
+    color: rgb(100,100,100);
+    z-index: 10;
+}
+
+.titans > .mySlides > h2 > span
+{
+    font-size: 20px;
+    font-family: 'Poor Story', cursive;
+    color: rgb(0,0,0);
+    z-index: 10;
+}
+
+.titans > .mySlides > .movement
+{
+    display: inline-block;
+    position: absolute;
+    top: 35vh;
+    left: 50vw;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 12px;
+    opacity: 0;
+    z-index: 10;
+}
+
+.titans > .mySlides > .movementdelayone
+{
+    display: inline-block;
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 12px;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.titans > .mySlides > .movementdelaytwo
+{
+    display: inline-block;
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 12px;
+    opacity: 0;
+    z-index: 10;
+}
+.titans > .mySlides > img
+{
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    z-index: 12;
+    transform: scale(0.8);
+}
+
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.fadedelayone
+{
+    animation: fade 1.5s 0.3s;
+}
+
+.fadedelaytwo
+{
+    animation: fade 1.5s 0.6s;
+}
+
+.movement
+{
+    animation: moveRight 0.2s linear;
+    animation-fill-mode: forwards;
+}
+
+.movementdelayone
+{
+    animation: moveRight .2s linear 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.movementdelaytwo
+{
+    animation: moveRight .2s linear 0.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes moveRight
+{
+    from {left: 50vw;opacity: 0;}
+    to {left: 52vw;opacity: 1;}
+}
+
+.footer
+{
+    position: absolute;
+    top: 100vh;
+    height: 50vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.footer:after
+{
+    content: "";
+    background-image: url('ShellEcoImages/72.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.footer > .cover
+{
+    width: 100vw;
+    height: 140vh;
+    background: rgba(0,0,0,0.5);
+}
+
+.footer > .cover > h2
+{
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+    width: 90vw;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.footer > .cover > div
+{
+    width: 20vw;
+    height: 19vh;
+    display: inline-block;
+    margin-left: 4vw;
+    transform: translate(0vw, 10vh);
+}
+
+.footer > .cover > div > p
+{
+    text-align: center;
+    transform: translateY(2vh);
+    color: white;
+    font-size: 25px;
+    font-family: 'Baloo Bhaijaan', cursive;
+    overflow: hidden;
+}
+
+.footer > .cover > img
+{
+    position: relative;
+    top: 9vh;
+    left: 10vw;
+}
+
+.footer > .cover > p
+{
+    position: relative;
+    top: 12vh;
+    left: 10vw;
+    width: 80vw;
+    height: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+.footer > .cover > hr
+{
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+    width: 90vw;
+    text-align: center;
+}
+
+.footer > .cover > h1
+{
+    position: relative;
+    top: 35vh;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track
+{
+    background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+{
+    background: #555; 
+}
+
+@media screen and (max-width: 1050px)
+{
+	.headCopy
+	{
+		display: none;
+	}
+
+	.head > a
+	{
+		position: relative;
+		left: 5vw;
+		font-size: 20px;
+	}
+
+	.head > .line
+	{
+		display: none;
+	}
+
+	.head > img
+	{
+		width: 40vw;
+	}
+
+	.titans
+	{
+		position: absolute;
+		top: 7.8vh;
+		height: 50vh;
+		background-image: url('ShellEcoImages/71.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.titans > .colorBlack
+	{
+		height: 50vh;
+	}
+
+	.eklavya > ol
+	{
+		position: relative;
+		top: 20vh;
+	}
+
+	.eklavya > img
+	{
+		position: relative;
+		top: 25vh;
+		left: 10vw;
+		width: 80vw;
+	}
+
+	.vortex > ol
+	{
+		position: relative;
+		top: 20vh;
+	}
+
+	.vortex > img
+	{
+		position: relative;
+		top: 25vh;
+		left: 10vw;
+		width: 80vw;
+	}
+
+	.myriad
+	{
+		overflow-y: hidden;
+	}
+
+	.myriad > ol
+	{
+		position: relative;
+		top: 25vh;
+	}
+
+	.myriad > img
+	{
+		position: relative;
+		top: 30vh;
+		left: 10vw;
+		width: 80vw;
+		height: 60vh;
+	}
+
+	.tapas
+	{
+		overflow-y: hidden;
+	}
+
+	.tapas > ol
+	{
+		position: relative;
+		top: 25vh;
+	}
+
+	.tapas > img
+	{
+		position: relative;
+		top: 35vh;
+		left: 10vw;
+		width: 80vw;
+		height: 60vh;
+	}
+
+	.daksh
+	{
+		height: 140vh;
+	}
+
+	.daksh > ol
+	{
+		position: relative;
+		top: 25vh;
+	}
+
+	.daksh > img
+	{
+		position: relative;
+		top: 35vh;
+		left: 10vw;
+		width: 80vw;
+		height: 60vh;
+	}
+
+	.footer
+	{
+		position: absolute;
+		top: 590vh;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	.head > a
+	{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	.head > a
+	{
+		display: none;
+	}
+
+	.head > span
+	{
+		opacity: 1;
+		position: absolute;
+		right: 2vw;
+		top: 0;
+		font-size: 30px;
+	}
+
+	#mySidenav
+	{
+		opacity: 1;
+		z-index: 11;
+	}
+
+	.sidenav {
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: #111;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	    padding-top: 60px;
+	}
+
+	.sidenav a {
+	    padding: 8px 8px 8px 32px;
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	    overflow-x: show;
+	}
+
+	.sidenav a:hover {
+	    color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 25px;
+	    font-size: 36px;
+	    margin-left: 50px;
+	}
+
+	.titans
+	{
+		position: absolute;
+		top: 6vh;
+	}
+
+	.eklavya
+	{
+		position: absolute;
+		top: 45vh;
+		height: 90vh;
+	}
+
+	.eklavya > h1
+	{
+		font-size: 23px;
+	}
+
+	.eklavya > h3
+	{
+		font-size: 20px;
+	}
+
+	.eklavya > ol
+	{
+		line-height: 25px;
+		font-size: 15px;
+	}
+
+	.vortex
+	{
+		position: absolute;
+		top: 135vh;
+		height: 90vh;
+	}
+
+	.vortex > h1
+	{
+		font-size: 23px;
+	}
+
+	.vortex > h3
+	{
+		font-size: 20px;
+	}
+
+	.vortex > ol
+	{
+		line-height: 25px;
+		font-size: 15px;
+	}
+
+	.myriad
+	{
+		position: absolute;
+		top: 225vh;
+	}
+
+	.myriad > h1
+	{
+		font-size: 23px;
+	}
+
+	.myriad > h3
+	{
+		font-size: 20px;
+	}
+
+	.myriad > ol
+	{
+		line-height: 25px;
+		font-size: 15px;
+	}
+
+	.tapas
+	{
+		position: absolute;
+		top: 325vh;
+	}
+
+	.tapas > h1
+	{
+		font-size: 23px;
+	}
+
+	.tapas > h3
+	{
+		font-size: 20px;
+	}
+
+	.tapas > ol
+	{
+		line-height: 25px;
+		font-size: 15px;
+	}
+
+	.daksh
+	{
+		position: absolute;
+		top: 425vh;
+		height: 120vh;
+	}
+
+	.daksh > h1
+	{
+		font-size: 23px;
+	}
+
+	.daksh > h3
+	{
+		font-size: 20px;
+	}
+
+	.daksh > ol
+	{
+		line-height: 25px;
+		font-size: 15px;
+		width: 80vw;
+	}
+
+	.footer
+	{
+		position: absolute;
+		top: 545vh;
+		height: 60vh;
+	}
+
+	.footer > .cover > h1
+	{
+		position: relative;
+		left: 2vw;
+	}
+}
+
+@media screen and (max-width: 376px)
+{
+	.eklavya > h1
+	{
+		font-size: 21px;
+		position: relative;
+		left: 2vw;
+	}
+
+	.titans
+	{
+		position: absolute;
+		top: 5vh;
+	}
+
+	.tapas
+	{
+		height: 110vh;
+	}
+
+	.daksh
+	{
+		overflow-y: hidden;
+		position: absolute;
+		top: 435vh;
+		height: 125vh;
+	}
+
+	.footer
+	{
+		height: 70vh;
+		position: absolute;
+		top: 560vh;
+	}
+
+	.footer > .cover > h1
+	{
+		font-size: 15px;
+	}
+
+	.footer > .cover > p
+	{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 370px)
+{
+	.eklavya > h1
+	{
+		font-size: 21px;
+		position: relative;
+		left: 2vw;
+	}
+
+	.tapas
+	{
+		height: 110vh;
+	}
+
+	.daksh
+	{
+		overflow-y: hidden;
+		position: absolute;
+		top: 435vh;
+		height: 125vh;
+	}
+
+	.footer
+	{
+		height: 70vh;
+		position: absolute;
+		top: 560vh;
+	}
+
+	.footer > .cover > h1
+	{
+		font-size: 15px;
+	}
+
+	.footer > .cover > p
+	{
+		font-size: 15px;
+	}
+}
