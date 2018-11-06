@@ -3,6 +3,8 @@ Saujas, kindly look into the same.
 
 I have even uploaded new images. All those images were in a folder named 'ShellEcoImages'. I was not able to upload a folder on github. So if someone clones this repository, he/she wont be able to see the photos without making a new folder.
 
+Also I haven't deleted already existing folder.
+
 # ShellEcoMarathon Final
 
 ### This website has 5 pages
