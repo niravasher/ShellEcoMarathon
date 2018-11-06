@@ -1,3 +1,6 @@
+I have uploaded all the files. The only change remaining is to add 3 photos which will be done by 7/11/2018. I made changes in the master branch, but a copy of past code is present in nirav's branch. Backend has to be attached with thses files.
+Saujas, kindly look into the same.
+
 # ShellEcoMarathon Final
 
 ### This website has 5 pages
