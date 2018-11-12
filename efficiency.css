@@ -75,7 +75,7 @@
 
 .facebooktwo > i
 {
-    transform: translate(8px, 3px);
+    transform: translate(5px, 3px);
 }
 
 .instagramtwo
@@ -94,7 +94,7 @@
 
 .instagramtwo > i
 {
-    transform: translate(5px, 2px);
+    transform: translate(8px, 2px);
 }
 
 .twittertwo
@@ -322,7 +322,7 @@
 {
     position: absolute;
     top: 50vh;
-    left: 50vh;
+    left: 100vh;
     z-index: 12;
     transform: scale(0.8);
 }
@@ -419,7 +419,7 @@
 
 .footer > .cover > div
 {
-    width: 20vw;
+    width: 28vw;
     height: 19vh;
     display: inline-block;
     margin-left: 4vw;

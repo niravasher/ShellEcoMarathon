@@ -36,7 +36,7 @@
 
 .facebooktwo > i
 {
-    transform: translate(8px, 3px);
+    transform: translate(5px, 3px);
 }
 
 .instagramtwo
@@ -55,7 +55,7 @@
 
 .instagramtwo > i
 {
-    transform: translate(5px, 2px);
+    transform: translate(8px, 2px);
 }
 
 .twittertwo
@@ -673,7 +673,7 @@
     left: 24vw;
     padding: 10px;
     width: 35vw;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: rgb(0,0,0);
 }
 
@@ -721,7 +721,7 @@
 
 .footer > .cover > div
 {
-    width: 20vw;
+    width: 28vw;
     height: 19vh;
     display: inline-block;
     margin-left: 4vw;

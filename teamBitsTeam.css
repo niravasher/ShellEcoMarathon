@@ -93,7 +93,7 @@ body
 
 .facebooktwo > i
 {
-    transform: translate(8px, 3px);
+    transform: translate(5px, 3px);
 }
 
 .instagramtwo
@@ -112,7 +112,7 @@ body
 
 .instagramtwo > i
 {
-    transform: translate(5px, 2px);
+    transform: translate(8px, 2px);
 }
 
 .twittertwo
@@ -400,18 +400,6 @@ h1
 .abhishek { grid-area: abhishek; }
 .aradhya { grid-area: aradhya; }
 
-/*.chasis > div
-{
-    background-color: grey;
-    text-align: center;
-    font-size: 30px;
-    height: 100%;
-    overflow: hidden;
-    height: 41vh;
-    width: 15vw;
-    color: white;
-}*/
-
 .chasis > div
 {
     background: grey;
@@ -619,7 +607,7 @@ h1
 
 .footer > .cover > div
 {
-    width: 20vw;
+    width: 28vw;
     height: 19vh;
     display: inline-block;
     margin-left: 4vw;
