@@ -717,15 +717,16 @@
     font-family: 'Orbitron', sans-serif;
     color: white;
     overflow: hidden;
+    font-size: 45px;
 }
 
 .footer > .cover > div
 {
     width: 28vw;
-    height: 19vh;
+    height: 23vh;
     display: inline-block;
     margin-left: 4vw;
-    transform: translate(0vw, 0vh);
+    transform: translate(0vw, 2vh);
 }
 
 .footer > .cover > div > p
@@ -733,8 +734,8 @@
     text-align: center;
     transform: translateY(2vh);
     color: white;
-    font-size: 25px;
-    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 20px;
+    font-family: 'Quicksand', cursive;
     overflow: hidden;
 }
 
@@ -768,9 +769,9 @@
 .footer > .cover > h1
 {
     position: relative;
-    top: 25vh;
+    top: 0vh;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 20px;
 }
